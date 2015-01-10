@@ -1,7 +1,13 @@
 # Encoding
 
+#### 阅读材料
+
+- [node的 Buffer 介绍](http://blog.chinaunix.net/uid-26672038-id-4173346.html)
+- [Bigpipe用Nodejs的实现](http://yuguo.us/weblog/bigpipe-in-nodejs/)
+- [深入浅出Node.js（六）：Buffer那些事儿](http://www.infoq.com/cn/articles/nodejs-about-buffer/)
+
 **encoding** is a simple wrapper around [node-iconv](https://github.com/bnoordhuis/node-iconv) and [iconv-lite](https://github.com/ashtuchkin/iconv-lite/) to convert strings from one encoding to another. If node-iconv is not available for some reason,
-iconv-lite will be used instead of it as a fallback.
+iconv-lite will be used instBufferead of it as a fallback.
 
 ## Install
 
